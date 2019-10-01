@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(195, 221, 245);
+}
+header h1 { 
+    text-align: center;
+    color: rgba(36, 36, 136, 0.795);
+
+}
+header h1 {
+    float: right;
+    padding: 80px;
+    
+}
+header nav ul  li { 
+    display: inline;
+    padding: 40px;
+    font-size: 20px;
+
+}
+header nav  ul li a {
+    text-decoration: none; 
+
+}
+ 
+ 
+main article section h2 {
+    color: rgba(36, 36, 136, 0.795);
+    padding: 40px;
+    
+}
+
+main article section p { 
+    
+    padding-left: 50px;
+}
+
+    footer nav ul li {
+        text-align: center;
+        display: inline;
+        padding: 10px;
+
+
+    }
+    footer { 
+        padding: 100px 0px;
+    }
