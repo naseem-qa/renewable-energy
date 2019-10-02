@@ -6,6 +6,21 @@
     <link rel="stylesheet" href="CSS1/styles.css">
 </head>
 <body>
+        <button onclick="myFunction()">Try it</button>
+        <p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  var r = confirm("Press a button!");
+  if (r == true) {
+    txt = "You pressed OK!";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
     <header> 
         <img src="https://www.as-coa.org/sites/default/files/renew_0.jpg" alt="RENEWABLE-energy">
         <h1>RENEWABLE ENERGY </h1>
@@ -72,5 +87,6 @@
     </nav>
       
 </footer>
+<script src="lab678.js"></script>
 </body>
 </html>
